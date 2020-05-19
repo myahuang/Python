@@ -1,2 +1,2 @@
-1.使用PyQt5创建UI
-2.使用队列处理多客户端连接
+1.使用PyQt5创建UI,然后编译生成firstMainWin.py
+2.主程序调用firstMainWin.py，使用队列处理多客户端连接
