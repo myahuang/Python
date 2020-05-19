@@ -1,3 +1,4 @@
-1.my_modbus_serve using queue.py文件采用了队列来处理并发客户端连接，同时最多支持5个连接，客户端连接再断开的时候，线程不断的产生再消失。
+1.modbus_server.py是基础，底层框架
+2.my_modbus_serve using queue.py文件采用了队列来处理并发客户端连接，同时最多支持5个连接，客户端连接再断开的时候，线程不断的产生再消失。
   while true循环注意要加time.sleep，这样大大降低CPU的负荷。
-2.my_modbus_serve.py采用简单的多线程设计，线程一直运行，线程ID不变。
+3.modbus_server muitithread.py采用简单的多线程设计，线程一直运行，线程ID不变。
